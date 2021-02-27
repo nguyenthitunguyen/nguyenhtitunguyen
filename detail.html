@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>LAYOUT</title>
+    <meta charset="utf-8" />
+    <link href="css/layout.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="page">
+        
+        <header>
+        <div class="container">
+        </div>
+        </header>
+        <nav>
+            <ul class="hmenu">
+                <li><a href="trangchu.html">Trang chủ</a></li>
+                <li><a href="gioithieu.html">Giới thiệu</a></li>
+                <li><a href="#">Liên hệ</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">Mobile</a></li>
+                        <li><a href="#">Email</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Góp ý</a></li>
+                <li><a href="#">Hỏi & đáp</a></li>
+            </ul>
+        </nav>
+        <h2>Đồng hồ Casio Nam Edifice EQB-800D-1ADR</h2>
+        <section>
+            <article>
+                <div class="detail">
+                    <div class="detail_image">
+                        <img src="image/1.jpg" alt="" />
+                    </div>
+                    <div class="detail_content">
+                        <p>Mã sản phẩm: EQB-800D-1ADR</p> 
+                        <p>Vật liệu vỏ: Thép không gỉ</p>
+                        <p>Dây đeo bằng thép không gỉ</p>
+                        <p>Núm vặn khóa bằng vít</p>
+                        <p>Mặt kính khoáng</p>
+                        <p>Khả năng chống nước ở độ sâu 100 mét</p>
+                        <p>Tổng trọng lượng: 199g</p>
+                        <p>Hiển thị ngày</p>
+                     <h3>12.880.000 VN</h3>
+                    </div>
+                </div>
+            </article>
+            <aside>
+                <h2>Đăng kí</h2>
+                <form action="Register.php"
+                     method="post" enctype="multipart/form-data">
+                     <label><strong>Họ và tên:</strong></label><br />
+                     <input name="id" type="text" /><br />
+             <br/>
+                     <label><strong>Giới tính:</strong></label>
+                     <label><input name="gender" type="radio" />Nam</label>
+                     <label><input name="gender" type="radio"/>Nữ</label></br>
+             <br/>
+                     <label><strong>Hình ảnh:</strong></label><br/>
+                     <input name="photo" type="file" /><br/>
+             <br/>
+                     <label><strong>Quốc tịch:</strong></label><br/>
+                     <select>
+                         <option>Việt Nam</option>
+                         <option>Japan</option>
+                         <option>Mỹ</option>
+                         <option>Canada</option>
+                     </select><br/>
+             <br/>
+                      <hr/>
+                      <button type="submit">Đăng kí</button>
+                      <button type="reset">Nhập lại</button>
+                 </form>    
+            </aside>
+        </section>
+        <footer>
+            Điện thoại: (073) 3540232<br/>
+            Email: casiochinhhang@gmail.com
+        </footer>
+    </div>
+</body>
+</html>
