@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>LAYOUT</title>
+    <meta charset="utf-8" />
+    <link href="css/layout.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="page">
+        
+        <header>
+        <div class="container">
+        </div>
+        </header>
+        <nav>
+            <ul class="hmenu">
+                <li><a href="">Trang chủ</a></li>
+                <li><a href="gioithieu.html">Giới thiệu</a></li>
+                <li><a href="#">Liên hệ</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">Mobile</a></li>
+                        <li><a href="#">Email</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Góp ý</a></li>
+                <li><a href="#">Hỏi & đáp</a></li>
+                <li><a href="dangki.html">Đăng kí</a></li>
+            </ul>
+        </nav>
+        <h2>Đăng kí thành viên</h2>
+        <section>
+            <article>
+                <form action="Register.php"
+                method="post" enctype="multipart/form-data">
+                <label><strong>Họ và tên:</strong></label><br />
+                <input name="id" type="text" /><br />
+        <br/>
+                <label><strong>Giới tính:</strong></label>
+                <label><input name="gender" type="radio" />Nam</label>
+                <label><input name="gender" type="radio"/>Nữ</label></br>
+        <br/>
+                <label><strong>Hình ảnh:</strong></label><br/>
+                <input name="photo" type="file" /><br/>
+        <br/>
+                <label><strong>Quốc tịch:</strong></label><br/>
+                <select>
+                    <option>Việt Nam</option>
+                    <option>Japan</option>
+                    <option>Mỹ</option>
+                    <option>Canada</option>
+                </select><br/>
+        <br/>
+                 <hr/>
+                 <button type="submit">Đăng kí</button>
+                 <button type="reset">Nhập lại</button>
+            </form>
+            </article>
+            <aside>
+                
+            </aside>
+        </section>
+        <footer>
+            Điện thoại: (073) 3540232<br/>
+            Email: casiochinhhang@gmail.com
+        </footer>
+    </div>
+<script src="https://uhchat.net/code.php?f=91cc84"></script>
+</body>
+</html>
