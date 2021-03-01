@@ -50,31 +50,6 @@ ul.hmenu>li{
 ul.hmenu>li:hover>.sub-menu{
     display:block;
 }
-.sub-menu{
-    margin: 0px;
-    padding: 0px;
-    border-radius: 5px;
-    box-shadow: 0 0 5px tan;
-    list-style: none;
-    width: 150px;
-    position: absolute;
-    display: none;
-}
-.sub-menu>li>a{
-    display: block;
-    line-height: 30px;
-    border-bottom: 1px dotted tan;
-    text-decoration: none;
-    font-variant: small-caps;
-    padding-left: 25px;
-    color:black;
-    background-color: white;
-}
-.sub-menu>li>a:hover{
-    color:white;
-    font-weight: bolder;
-    background-color: tan;
-}
 article{
     min-height: 400px;
     width:75%;
